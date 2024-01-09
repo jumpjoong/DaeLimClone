@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body header .header-main {
+  position: relative;
+}
+
+main > div {
+  width: 100%;
+  position: relative;
+}
+main > div .reg {
+  max-width: 570px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 30px;
+}
+main > div .reg .top .msg {
+  max-width: 425px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+main > div .reg .top .msg h2 {
+  line-height: 1.6;
+  font-size: 46px;
+  font-weight: 300;
+  text-align: center;
+}
+main > div .reg .top .msg .msg-btm {
+  margin: 20px 0 10px 0;
+}
+main > div .reg .top .msg .msg-btm .log-effects {
+  display: flex;
+  flex-wrap: wrap;
+}
+main > div .reg .top .msg .msg-btm .log-effects li {
+  width: 50%;
+  text-align: center;
+  color: #000;
+  border-bottom: 2px solid #dcdcdc;
+  margin-bottom: 10px;
+  padding-bottom: 14px;
+  cursor: pointer;
+}
+main > div .reg .top .msg .msg-btm .log-effects li p {
+  font-size: 18px;
+  font-weight: 500;
+}
+main > div .reg .top .msg .msg-btm .log-effects .on {
+  border-bottom: 2px solid #326aff;
+}
+main > div .reg .top .msg .msg-btm .log-effects .on p {
+  color: #326aff;
+}
+main > div .reg .btm .mem {
+  padding: 60px 0;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+}
+main > div .reg .btm .mem .mem-inside {
+  max-width: 425px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+main > div .reg .btm .mem .mem-inside > div .mem-log input {
+  border-radius: 33px;
+  background-color: #fff;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.05);
+  border: none;
+  width: 100%;
+  line-height: 65px;
+  padding: 0 40px 0 40px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  height: 65px;
+}
+main > div .reg .btm .mem .mem-inside .check {
+  margin: 10px 0 45px 0;
+}
+main > div .reg .btm .mem .mem-inside .check input[type=checkbox] {
+  display: none;
+}
+main > div .reg .btm .mem .mem-inside .check input[type=checkbox]:checked + label::after {
+  background-color: #326aff;
+  border: 1px solid #326aff;
+}
+main > div .reg .btm .mem .mem-inside .check label {
+  position: relative;
+  font-size: 14px;
+  padding-right: 25px;
+  color: #93989d;
+  cursor: pointer;
+  padding-left: 23px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main > div .reg .btm .mem .mem-inside .check label::after {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 17px;
+  height: 17px;
+  content: "";
+  border: 1px solid #93989d;
+  border-radius: 5px;
+}
+main > div .reg .btm .mem .mem-inside .login-box > div a {
+  display: block;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  line-height: 65px;
+  border-radius: 33px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+main > div .reg .btm .mem .mem-inside .login-box > div a:nth-of-type(1) {
+  background-color: #326aff;
+  color: white;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.05);
+}
+main > div .reg .btm .mem .mem-inside .login-box > div a:nth-of-type(2) {
+  border: 2px solid #326aff;
+  background-color: #f7f7f7;
+  color: #326aff;
+}
+main > div .reg .btm .mem .mem-inside .find {
+  margin-top: 20px;
+}
+main > div .reg .btm .mem .mem-inside .find .abc {
+  display: flex;
+  padding: 0 40px;
+  text-align: center;
+  position: relative;
+}
+main > div .reg .btm .mem .mem-inside .find .abc li {
+  color: #84888d;
+  width: 50%;
+  font-size: 15px;
+}
+main > div .reg .btm .mem .mem-inside .find .abc li:nth-of-type(1)::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 2px;
+  height: 15px;
+  top: 5px;
+  left: 49%;
+  background-color: #93989d;
+}/*# sourceMappingURL=login.css.map */

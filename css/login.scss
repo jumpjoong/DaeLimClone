@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  header {
+    .header-main {
+      position: relative;
+    }
+  }
+}
+main {
+  // margin-top: 97px;
+  >div {
+    width: 100%;
+    // height: 75vh;
+    position: relative;
+    .reg {
+      max-width: 570px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 100px 30px;
+      .top {
+        .msg {
+          max-width: 425px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 30px;
+          h2 {
+            line-height: 1.6;
+            font-size: 46px;
+            font-weight: 300;
+            text-align: center;
+          }
+          .msg-btm {
+            margin: 20px 0 10px 0;
+            .log-effects {
+              display: flex;
+              flex-wrap: wrap;
+              li {
+                width: 50%;
+                text-align: center;
+                color: #000;
+                border-bottom: 2px solid #dcdcdc;
+                margin-bottom: 10px;
+                padding-bottom: 14px;
+                cursor: pointer;
+                p {
+                  font-size: 18px;
+                  font-weight: 500;
+                }
+              }
+              .on {
+                border-bottom: 2px solid #326aff;
+                p{
+                  color: #326aff;
+                }
+              }
+            }
+          }
+        }
+      }
+      .btm {
+        .mem {
+          padding: 60px 0;
+          border-radius: 20px;
+          background-color: #f7f7f7;
+          .mem-inside {
+            max-width: 425px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 30px;
+            > div {
+              .mem-log {
+                input {
+                  border-radius: 33px;
+                  background-color: #fff;
+                  box-shadow: 0 0 40px 0 rgb(0 0 0 / 5%);
+                  border: none;
+                  width: 100%;
+                  line-height: 65px;
+                  padding: 0 40px 0 40px;
+                  margin-bottom: 10px;
+                  font-size: 15px;
+                  height: 65px;
+                }
+              }
+            }
+            .check {
+              margin: 10px 0 45px 0;
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"]:checked + label::after {
+                background-color: #326aff;
+                border: 1px solid #326aff;
+              }
+              label {
+                position: relative;
+                font-size: 14px;
+                padding-right: 25px;
+                color: #93989d;
+                cursor: pointer;
+                padding-left: 23px;
+                display: inline-block;
+                vertical-align: middle;
+                &::after {
+                  position: absolute;
+                  left: 0;
+                  top: 2px;
+                  width: 17px;
+                  height: 17px;
+                  content: "";
+                  border: 1px solid #93989d;
+                  border-radius: 5px;
+                  
+                }
+              }
+            }
+            .login-box {
+              > div {
+                a {
+                  display: block;
+                  width: 100%;
+                  height: 65px;
+                  text-align: center;
+                  font-size: 16px;
+                  font-weight: 500;
+                  border: none;
+                  line-height: 65px;
+                  border-radius: 33px;
+                  margin-bottom: 10px;
+                  cursor: pointer;
+                  &:nth-of-type(1) {
+                    background-color: #326aff;
+                    color: white;
+                    box-shadow: 0 0 40px 0 rgb(0 0 0 / 5%);
+                  }
+                  &:nth-of-type(2) {
+                    border: 2px solid #326aff;
+                    background-color: #f7f7f7;
+                    color: #326aff;
+                  }
+                }
+              }
+            }
+            .find {
+              margin-top: 20px;
+              .abc {
+                display: flex;
+                padding: 0 40px;
+                text-align: center;
+                position: relative;
+                li {
+                  color: #84888d;
+                  width: 50%;
+                  font-size: 15px;
+                  &:nth-of-type(1) {
+                    &::after{
+                      position: absolute;
+                      content: "";
+                      display: block;
+                      width: 2px;
+                      height: 15px;
+                      top: 5px;
+                      left: 49%;
+                      background-color: #93989d;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

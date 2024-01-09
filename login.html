@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대림 바스</title>
+  <meta property="og:url" content="사이트 url">
+  <meta property="og:title" content="대림 바스">
+  <meta property="og:image" content="공유할 배너 이미지 주소">
+  <meta property="og:description" content="사이트 소개 내용">
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+  <script src="./index.js" defer></script>
+  <script src="./ham.js" defer></script>
+</head>
+<body>
+  <main>
+    <div>
+      <div class="reg">
+        <div class="top">
+          <div class="msg">
+            <h2>로그인</h2>
+            <div class="msg-btm">
+              <ul class="log-effects">
+                <li class="on">
+                  <p>회원 로그인</p>
+                </li>
+                <li>
+                  <p>기업 로그인</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="btm">
+          <div class="mem">
+            <div class="mem-inside">
+              <div>
+                <div class="mem-log">
+                  <input type="text" placeholder="아이디" autocomplete="false">
+                  <input type="password" placeholder="비밀번호">
+                </div>
+              </div>
+              <div class="check">
+                <input type="checkbox" id="id">
+                <label for="id">
+                  로그인 상태 유지
+                </label>
+                <input type="checkbox" id="rem-id">
+                <label for="rem-id">
+                  아이디 저장
+                </label>
+              </div>
+              <div class="login-box">
+                <div>
+                  <a>로그인</a>
+                  <a>회원가입하기</a>
+                </div>
+              </div>
+              <div class="find">
+                <ul class="abc on">
+                  <li>개인 아이디 찾기</li>
+                  <li>개인 비밀번호 찾기</li>
+                </ul>
+                <!-- <ul class="abc">
+                  <li>기업 아이디 찾기</li>
+                  <li>기업 비밀번호 찾기</li>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

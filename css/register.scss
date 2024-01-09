@@ -1,0 +1,73 @@
+body {
+  header {
+    .header-main {
+      position: relative;
+    }
+  }
+}
+main {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  > div {
+    .wrap {
+      padding: 100px 30px 364px;
+      max-width: 570px;
+      width: 100%;
+      margin: 0 auto;
+      .reg-top {
+        margin-bottom: 30px;
+        .inpage {
+          h2 {
+            font-size: 46px;
+            font-weight: 300;
+            text-align: center;
+          }
+          h3 {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 18px;
+            font-weight: normal;
+            text-align: center;
+            margin-top: 16px;
+          }
+        }
+      }
+      .reg-btm {
+        padding: 63px 0;
+        background-color: #f7f7f7;
+        border-radius: 20px;
+        .btm-inpage {
+          max-width: 425px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 30px;
+          .inbox {
+            .login {
+              text-align: left;
+              padding-left: 40px;
+              background: url(../icon/join_intro_arrow.png) no-repeat 90%;
+              background-size: 21px 18px;
+              width: 100%;
+              color: white;
+              line-height: 65px;
+              font-size: 16px;
+              font-weight: 500;
+              border: none;
+              border-radius: 33px;
+              cursor: pointer;
+              box-shadow: 0 0 40px 0 rgb(0 0 0 / 5%);
+              display: block;
+            }
+            .pri {
+              margin-bottom: 15px;
+              background-color: #326aff;
+            }
+            .cor {
+              background-color: #373737;
+            }
+          }
+        }
+      }
+    }
+  }
+}
