@@ -7,9 +7,10 @@
 
 👆👆👆👆👆👆👆👆
 
-<br/> !이미지 수정!
+<br/> 
 
-<img width ="45%" height="300px" alt="daeLimBathClone" src="https://github.com/jumpjoong/DaeLimClone/assets/100519998/86cd6a4f-61a6-4db8-a29d-3afce65fa6da">
+<img width="1680" alt="daeLimBathClone" src="https://github.com/jumpjoong/DaeLimClone/assets/100519998/0209136d-2862-493c-a00f-b8a62654ef94">
+
 
 <br/>
 <br/>
@@ -26,7 +27,7 @@
 <br/>
 
 ## 🗓️ 개발기간
-<h5>2022.12.02 ~ 2022.12.09
+<h5>2022.11.25 ~ 2022.12.02
 
 <br/>
 <br/>
@@ -36,9 +37,9 @@
 
 
 ## 📍 사용한 기술 스택 !이미지 수정!
-| HTML | SCSS | JavaScript |
+| HTML | CSS | JavaScript |
 |:---:|:---:|:---:|
-| ![react](https://user-images.githubusercontent.com/100519998/227874284-72192c04-3f8b-4ae7-94d8-de30a043166a.svg)| ![sass](https://user-images.githubusercontent.com/100519998/227877981-7552edea-b3d7-401b-9500-468e56285567.svg) | ![typescript_original_logo_icon_146317 1](https://user-images.githubusercontent.com/100519998/236756423-b93db12f-fd51-4772-b12c-67a088561f59.svg)
+| 이미지 | ![css3](https://github.com/jumpjoong/DaeLimClone/assets/100519998/6a5333ea-ce74-418e-b087-49bbc6d93c2d) | ![javascript](https://github.com/jumpjoong/DaeLimClone/assets/100519998/e780565a-2c7b-40e9-888b-6f7f2326d2ba)
 
 
 
