@@ -36,11 +36,10 @@
 <br/>
 
 
-## 📍 사용한 기술 스택 !이미지 수정!
+## 📍 사용한 기술 스택
 | HTML | CSS | JavaScript |
 |:---:|:---:|:---:|
-| 이미지 | ![css3](https://github.com/jumpjoong/DaeLimClone/assets/100519998/6a5333ea-ce74-418e-b087-49bbc6d93c2d) | ![javascript](https://github.com/jumpjoong/DaeLimClone/assets/100519998/e780565a-2c7b-40e9-888b-6f7f2326d2ba)
-
+| <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/2e15ea3e-1f4d-4283-ab49-b3e312b583d1" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/d813f3ec-2c2c-4235-b136-8b9c12990603" width="100px" height="100px"> | <img src = "https://github.com/jumpjoong/DaeLimClone/assets/100519998/ac38204a-e535-4c56-b813-296a8171ef41" width="100px" height="100px">
 
 
 
