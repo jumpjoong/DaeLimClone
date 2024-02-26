@@ -9,7 +9,7 @@
 
 <br/> !이미지 수정!
 
-<img src="https://user-images.githubusercontent.com/100519998/227865873-66dfd20f-2f12-4182-a03d-8bc6e6f61611.png" width ="45%" height="300px"> <img src="https://user-images.githubusercontent.com/100519998/227868077-64f0293b-43ae-4dba-b022-1c5b556c7eab.png" width ="45%" height="300px">
+<img width ="45%" height="300px" alt="daeLimBathClone" src="https://github.com/jumpjoong/DaeLimClone/assets/100519998/86cd6a4f-61a6-4db8-a29d-3afce65fa6da">
 
 <br/>
 <br/>
